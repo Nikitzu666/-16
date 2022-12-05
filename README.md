@@ -45,25 +45,3 @@
 Настроили анимацию выдвижного меню при наведении на кнопку 
 ![image](https://user-images.githubusercontent.com/119733911/205500412-8102abc7-93bb-4ceb-a3f8-77352a5df5cf.png)
 Рисунок 16.7 Анимация выдвижения меню
-
-Листинг 16.1 MenuManager.cs
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class MenuManager : MonoBehaviour {
-    public GameObject Panel;
-// Use This for initialization
-Void Start () {
-}
-// Update is called once per frame
-Void Update () {
-}
-Public void Settings()
-{
-Panel.GetComponent<Animator>().SetTrigger(“Pop”);
-}
-}
-
-2.Вывод
-В ходе проделанной работы, мы разработали анимированный UI интерфейс.
